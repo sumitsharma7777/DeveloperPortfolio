@@ -1,0 +1,23 @@
+==========================================
+       SYSTEM INFORMATION REPORT
+==========================================
+Name: Sumit Sharma
+Roll Number: Add Your Roll Number
+Date: Fri Nov 27 21:40:08 IST 2026
+
+---------- CPU INFORMATION ----------
+CPU Model: Apple M5
+CPU Cores: 10
+
+---------- MEMORY INFORMATION ----------
+Total Memory: 16.0 GB
+Estimated Used Memory: 4.8 GB
+
+---------- TOP 3 PROCESSES ----------
+  5.9 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+  5.0 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  2.4 /System/Library/CoreServices/MenuBarAgent.app/Contents/MacOS/MenuBarAgent
+
+==========================================
+Report generated successfully.
+==========================================
