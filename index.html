@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sumit Sharma - Computer Science student and aspiring Full-Stack Developer.">
+    <title>Sumit Sharma | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Sumit<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Sumit Sharma</span></h1>
+                <h2>Aspiring Full-Stack Developer</h2>
+                <p class="hero-description">
+                    I am a Computer Science student passionate about programming,
+                    web development and building practical technology projects.
+                    I enjoy learning new tools and turning ideas into working solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Explore My Work</a>
+                    <a href="Portfolio/resume.pdf" class="btn secondary-btn" target="_blank">
+                        View Resume
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/sumitsharma7777" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/sumit-sharma-0aa379431/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="about">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p>
+                    I am pursuing B.Tech in Computer Science and Engineering
+                    at K.R. Mangalam University, Gurugram. I am developing my
+                    foundation in programming, software development, version
+                    control and web technologies.
+                </p>
+                <p>
+                    My current goal is to become a Full-Stack Developer by
+                    strengthening my frontend and backend skills, practising
+                    problem-solving and building useful projects.
+                </p>
+            </div>
+        </section>
+
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <p class="section-label">WHAT I AM LEARNING</p>
+                <h2 class="section-title">Technical Skills</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Programming</h3>
+                        <p>Python, Java (learning)</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, JavaScript (learning)</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Tools</h3>
+                        <p>Git, GitHub, VS Code, Terminal</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Technical Concepts</h3>
+                        <p>Bash scripting, REST APIs, JSON, jq</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="projects">
+            <p class="section-label">MY PRACTICAL WORK</p>
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <span class="project-number">01</span>
+                    <h3>Developer Ecosystem Portfolio</h3>
+                    <p>
+                        An organized collection of system information,
+                        shell scripts, API exercises, resume and learning roadmap.
+                    </p>
+                    <p class="tech">Git · Bash · Python · REST APIs · JSON</p>
+                    <a href="https://github.com/sumitsharma7777/DeveloperPortfolio"
+                       target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">02</span>
+                    <h3>System Information Script</h3>
+                    <p>
+                        A shell script that displays system information,
+                        including processor, memory and running processes.
+                    </p>
+                    <p class="tech">Bash · macOS Terminal · Shell Scripting</p>
+                    <a href="https://github.com/sumitsharma7777/DeveloperPortfolio/tree/main/ShellScripts"
+                       target="_blank" rel="noopener noreferrer">View Scripts →</a>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-number">03</span>
+                    <h3>API Data Collection</h3>
+                    <p>
+                        Retrieved GitHub profile information and sample posts
+                        from public APIs, then saved and validated JSON data.
+                    </p>
+                    <p class="tech">REST API · curl · JSON · jq</p>
+                    <a href="https://github.com/sumitsharma7777/DeveloperPortfolio/tree/main/API"
+                       target="_blank" rel="noopener noreferrer">View API Files →</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section education-section" id="education">
+            <div class="container">
+                <p class="section-label">MY ACADEMIC JOURNEY</p>
+                <h2 class="section-title">Education & Goals</h2>
+                <div class="education-card">
+                    <h3>Bachelor of Technology (B.Tech)</h3>
+                    <p>Computer Science and Engineering</p>
+                    <p>K.R. Mangalam University, Gurugram</p>
+                    <p class="tech">Expected Graduation: 2030</p>
+                </div>
+
+                <div class="education-card roadmap-card">
+                    <h3>Learning Goal: Full-Stack Development</h3>
+                    <p>
+                        Building skills in frontend development, backend
+                        programming, databases, APIs and application deployment.
+                    </p>
+                    <a href="Portfolio/learning_roadmap.md" target="_blank">
+                        View Learning Roadmap →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container contact-section" id="contact">
+            <p class="section-label">LET'S CONNECT</p>
+            <h2 class="section-title">Contact Me</h2>
+            <p>
+                I am interested in learning, collaborating and building
+                meaningful technology projects.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:sumitsharma77705@gmail.com">Email Me</a>
+                <a href="https://github.com/sumitsharma7777" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/sumit-sharma-0aa379431/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Sumit Sharma. Built with HTML, CSS and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
